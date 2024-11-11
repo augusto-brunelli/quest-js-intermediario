@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../image/bg-repeat.jpg');
+    background-size: contain;
+    min-height: 100dvh;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texts{
+    color: #fff;
+    width: 300px;
+}
+
+.texts .question{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.texts .text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.forms{
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.forms .input,
+.forms textarea{
+    border-radius: 5px;
+}
+
+.forms .input{
+    height: 35px;
+    margin-bottom: -20px;
+    padding: 1rem;
+}
+
+.forms textarea{
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 20px 60px 15px;
+    width: 310px;
+}
+
+.forms p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: -5px;
+    padding: 7px 0;
+    margin-top: -10px;
+}
+
+.forms .input::placeholder,
+.forms #textarea::placeholder{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forms #textarea::placeholder{
+    margin-left: 10px;
+}
+
+.forms button{
+    background-color:#3CCC87;
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.border-red{
+    border: solid 1.5px #F52E2E;
+}
+
+.border-green{
+    border: solid 1.5px #00C22B;
+}
+
+.newComments{
+    font-size: 8px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.verificed{
+    color: #F52E2E;
+}
+
+.newComments.inputs{
+    margin: 12px 0 0 2px;
+}
+
+.newComments.textarea{
+    margin: -8px 0 0 2px;
+}
